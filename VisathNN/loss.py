@@ -3,7 +3,7 @@ A loss function simply measures the quality of predictions, we will use this to 
 parameters of our model
 """
 import numpy as np
-from DeepLearningLib.tensor import Tensor
+from VisathNN.tensor import Tensor
 
 class Loss:
     def loss(self, predicted: Tensor, actual: Tensor) -> float:

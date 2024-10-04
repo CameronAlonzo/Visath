@@ -6,7 +6,7 @@ it will pass inputs forward and back propagate gradients
 from typing import Dict, Callable
 import numpy as np
 
-from DeepLearningLib.tensor import Tensor
+from VisathNN.tensor import Tensor
 
 class Layer:
     "Default constructor"
